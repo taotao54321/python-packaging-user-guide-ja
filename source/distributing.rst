@@ -475,7 +475,7 @@ Semantic versioning の本質は MAJOR.MINOR.MAINTENANCE の 3 パートから�
 3. MAINTENANCE バージョンは、後方互換性のあるバグ修正を行ったとき。
 
 プロジェクト作者がこのアプローチを採用していれば、ユーザは
-:pep:`"compatible release"` specifier を利用できる。例えば
+:pep:`"compatible release" <440#compatible-release>` specifier を利用できる。例えば
 ``name ~= X.Y`` とすることで、少なくともリリース X.Y が必要だが、後続
 のリリースのうち MAJOR バージョンが一致する任意のものを許す、という指
 定ができる。
