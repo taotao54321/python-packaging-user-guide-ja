@@ -352,10 +352,6 @@ venv
 `Docs <https://docs.python.org/3/library/venv.html>`__ |
 `Issues <http://bugs.python.org>`__
 
-A package in the Python Standard Library (starting with Python 3.3) for
-creating :term:`Virtual Environments <Virtual Environment>`.  For more
-information, see the section on :ref:`Creating and using Virtual Environments`.
-
 :term:`仮想環境 <Virtual Environment>` を作るための Python 標準ライブ
 ラリパッケージ (Python 3.3 以降)。詳しくは、:ref:`Creating and using
 Virtual Environments` のセクションを見よ。
