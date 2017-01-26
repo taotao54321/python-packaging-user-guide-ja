@@ -274,12 +274,6 @@ packages
   packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
 
 
-It's required to list the :term:`packages <Import Package>` to be included
-in your project.  Although they can be listed manually,
-``setuptools.find_packages`` finds them automatically.  Use the ``exclude``
-keyword argument to omit packages that are not intended to be released and
-installed.
-
 プロジェクトに含まれる :term:`パッケージ <Import Package>` のリストを
 得るために必要となる。手動でリストを書いてもよいが、
 ``setuptools.find_packages`` を使うと自動で探してくれる。 ``exclude``
@@ -462,9 +456,6 @@ Semantic versioning (推奨)
 新規プロジェクトでは、 `Semantic Versioning <http://semver.org>`_ に基
 づく versioning scheme を推奨する。ただし、プレリリースとビルドメタ
 データを扱う際は異なるアプローチが採用されている。
-
-The essence of semantic versioning is a 3-part MAJOR.MINOR.MAINTENANCE numbering scheme,
-where the project author increments:
 
 Semantic versioning の本質は MAJOR.MINOR.MAINTENANCE の 3 パートからな
 る番号付けであり、プロジェクト作者は以下の場合にそれぞれの番号をインク
