@@ -670,7 +670,7 @@ Universal Wheel をビルドするには:
    と 3 で動く
 2. プロジェクトが C 拡張を一切含まない。
 
-今のところ、 ``bdist_whell`` はこの設定が不適切に使われていても警告を
+今のところ、 ``bdist_wheel`` はこの設定が不適切に使われていても警告を
 出さないので注意。
 
 プロジェクトがオプションの C 拡張を含むなら、universal wheel を公開す
@@ -685,7 +685,7 @@ Pure Python Wheels
 
 "Universal" でない "Pure Python Wheels" は、pure Python (一切のコンパ
 イル済み拡張を含まない)かつ Python 2 と 3 の片方しかネイティブにサポー
-トしない whells だ。
+トしない wheels だ。
 
 この wheel をビルドするには:
 
